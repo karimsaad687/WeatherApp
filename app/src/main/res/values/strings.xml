@@ -11,7 +11,9 @@
     <string name="where_did_you_take_this_photo">"where did you take this photo?"</string>
     <string name="save">Save</string>
     <string name="clear_history">Clear History</string>
-
+    //image dialog
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="share_on_twitter">Share on Twitter</string>
     //errors
     <string name="location_service_is_turned_off">Please enable LOCATION SERVICE and try again</string>
     <string name="location_permission_denied">Please accept LOCATION PERMISSION and try again</string>

@@ -108,9 +108,14 @@ class DashBoard : BaseActivity(), TextWatcher {
         //and return the view to original form to take another image
         binding.saveTv.setOnClickListener({
             if(binding.locationEt.text.toString().trim().length>0){
+                binding.locationEt.isCursorVisible=false
+                binding.saveTv.visibility=View.GONE
+                var bitmap = createBitmapFromView(binding.photoCl)
+                var path=convertBitmapToFilePath(bitmap)
+                binding.locationEt.isCursorVisible=true
                 var weatherDatabaseModel=HistoryModel(
                     0,
-                    imagePath,
+                    path,
                     weatherModel.temp,
                     binding.locationEt.text.toString(),
                     conditionIcon
@@ -124,6 +129,9 @@ class DashBoard : BaseActivity(), TextWatcher {
                 }
                 //historyModels.add(historyModel)
                 adapter.notifyDataSetChanged()
+
+
+                //shareImage(bitmap,"com.facebook.katana","Facebook")
             }
         })
 

@@ -8,12 +8,12 @@
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_new_order_slide_up.xml.flat",
-        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/new_order_slide_up.xml"
-    },
-    {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_weather_rainy.xml.flat",
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_weather_rainy.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_new_order_slide_up.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/new_order_slide_up.xml"
     },
     {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -64,10 +64,6 @@
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/loading.xml"
     },
     {
-        "merged": "com.app.weather.app-merged_res-46:/layout_adapter_history_item.xml.flat",
-        "source": "com.app.weather.app-main-48:/layout/adapter_history_item.xml"
-    },
-    {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_launcher_background.xml"
     },
@@ -102,6 +98,10 @@
     {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_slide_in_left.xml.flat",
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/layout_dialog_full_image.xml.flat",
+        "source": "com.app.weather.app-main-48:/layout/dialog_full_image.xml"
     },
     {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",

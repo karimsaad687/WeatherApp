@@ -1,16 +1,15 @@
 package com.app.weather.Splash
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
 import app.w8r.Common.BaseActivity
 import app.w8r.Common.MyUtils
 import butterknife.ButterKnife
-import butterknife.OnClick
 import com.app.weather.DashBoard.DashBoard
-import com.app.weather.R
 import com.app.weather.databinding.ActivityMainBinding
+
 
 class MainActivity : BaseActivity() {
     lateinit var binding:ActivityMainBinding
@@ -32,6 +31,7 @@ class MainActivity : BaseActivity() {
             finish()
             startActivity(Intent(this,DashBoard::class.java))
         })
+
     }
 
 

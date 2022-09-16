@@ -5,95 +5,101 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DashBoard.DashBoard">
-    <ImageView
-        android:id="@+id/photo_im"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/background"
-        android:scaleType="centerCrop"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/transparant_layer"/>
-    <ImageView
-        android:id="@+id/camera_im"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_camera"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:alpha="0"/>
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/topData"
+        android:id="@+id/photo_cl"
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:translationY="-210dp"
-        android:focusable="true"
-        android:focusableInTouchMode="true">
-        <app.w8r.CustomViews.BaseTextView
-            android:id="@+id/temp_tv"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/photo_im"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background"
+            android:scaleType="centerCrop"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparant_layer"/>
+        <ImageView
+            android:id="@+id/camera_im"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="21C"
-            android:includeFontPadding="false"
-            app:my_style="text_50_semi_white"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="53dp"
+            android:src="@drawable/ic_camera"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
-        <app.w8r.CustomViews.BaseTextView
-            android:id="@+id/condition_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="clear"
-            app:my_style="text_12_reg_white"
-            android:layout_marginStart="24dp"
-            app:layout_constraintTop_toBottomOf="@id/temp_tv"
-            app:layout_constraintStart_toStartOf="parent"/>
-
-        <ImageView
-            android:id="@+id/weather_im"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_marginEnd="24dp"
-            app:layout_constraintTop_toTopOf="@id/temp_tv"
-            app:layout_constraintBottom_toBottomOf="@id/temp_tv"
-            app:layout_constraintEnd_toEndOf="parent"/>
-        <app.w8r.CustomViews.BaseEditTextView
-            android:id="@+id/location_et"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/save_tv"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintTop_toBottomOf="@id/condition_tv"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="20dp"
-            android:gravity="center_vertical"
-            android:lines="1"
-            android:maxLines="1"
-            android:inputType="text"
-            android:focusedByDefault="false"
-            android:drawableStart="@drawable/ic_pin"
-            android:drawablePadding="4dp"
-            android:hint="@string/where_did_you_take_this_photo"/>
-        <ImageView
-            android:id="@+id/save_tv"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/custom_oval_white"
-            android:src="@drawable/ic_save"
-            android:padding="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/location_et"
-            app:layout_constraintBottom_toBottomOf="@id/location_et"
-            android:layout_marginEnd="24dp"
-            android:visibility="gone"
-            app:my_style="primaryButton"/>
+            android:alpha="0"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/topData"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:translationY="-210dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <app.w8r.CustomViews.BaseTextView
+                android:id="@+id/temp_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21C"
+                android:includeFontPadding="false"
+                app:my_style="text_50_semi_white"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="53dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <app.w8r.CustomViews.BaseTextView
+                android:id="@+id/condition_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                app:my_style="text_12_reg_white"
+                android:layout_marginStart="24dp"
+                app:layout_constraintTop_toBottomOf="@id/temp_tv"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <ImageView
+                android:id="@+id/weather_im"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintTop_toTopOf="@id/temp_tv"
+                app:layout_constraintBottom_toBottomOf="@id/temp_tv"
+                app:layout_constraintEnd_toEndOf="parent"/>
+            <app.w8r.CustomViews.BaseEditTextView
+                android:id="@+id/location_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/save_tv"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintTop_toBottomOf="@id/condition_tv"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:maxLines="1"
+                android:inputType="text"
+                android:focusedByDefault="false"
+                android:drawableStart="@drawable/ic_pin"
+                android:drawablePadding="4dp"
+                android:hint="@string/where_did_you_take_this_photo"/>
+            <ImageView
+                android:id="@+id/save_tv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_oval_white"
+                android:src="@drawable/ic_save"
+                android:padding="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/location_et"
+                app:layout_constraintBottom_toBottomOf="@id/location_et"
+                android:layout_marginEnd="24dp"
+                android:visibility="gone"
+                app:my_style="primaryButton"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomData"
         android:layout_width="match_parent"

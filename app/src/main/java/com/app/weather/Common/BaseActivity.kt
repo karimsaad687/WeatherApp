@@ -6,6 +6,8 @@ import android.content.ContentValues
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.database.Cursor
+import android.graphics.Bitmap
+import android.graphics.Canvas
 import android.net.Uri
 import android.os.*
 import android.provider.MediaStore
@@ -16,11 +18,15 @@ import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.app.weather.DashBoard.DashBoard
 import com.app.weather.R
 import locationprovider.davidserrano.com.LocationProvider
+import java.io.File
+import java.io.FileOutputStream
+import java.util.*
 
 
 open class BaseActivity : AppCompatActivity() {
@@ -230,5 +236,41 @@ open class BaseActivity : AppCompatActivity() {
 
 
     open fun setLocation(lat: Float,lng:Float) {}
+
+    //convert view to bitmap to be share on facebook or twitter
+    fun createBitmapFromView(view: View): Bitmap {
+
+        view.layoutParams = ConstraintLayout.LayoutParams(
+            ConstraintLayout.LayoutParams.MATCH_PARENT,
+            ConstraintLayout.LayoutParams.MATCH_PARENT
+        )
+        val dm = resources.displayMetrics
+        view.measure(
+            View.MeasureSpec.makeMeasureSpec(dm.widthPixels, View.MeasureSpec.EXACTLY),
+            View.MeasureSpec.makeMeasureSpec(dm.heightPixels, View.MeasureSpec.EXACTLY)
+        )
+        view.layout(0, 0, view.measuredWidth, view.measuredHeight)
+        val bitmap = Bitmap.createBitmap(
+            view.measuredWidth,
+            view.measuredHeight,
+            Bitmap.Config.ARGB_8888
+        )
+        val canvas = Canvas(bitmap)
+        view.layout(view.left, view.top, view.right, view.bottom)
+        view.draw(canvas)
+        return bitmap
+    }
+
+    fun convertBitmapToFilePath(bitmap:Bitmap):String{
+        val file = File(this.externalCacheDir, Date().time.toString()+".png")
+        val fileOutputStream = FileOutputStream(file)
+        bitmap.compress(Bitmap.CompressFormat.PNG, 95, fileOutputStream)
+        fileOutputStream.flush()
+        fileOutputStream.close()
+        file.setReadable(true, false)
+        return file.path
+    }
+
+
 
 }

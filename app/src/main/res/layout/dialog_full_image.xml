@@ -20,4 +20,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:padding="16dp"/>
+    <app.w8r.CustomViews.BaseTextView
+        android:id="@+id/twitter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toTopOf="@id/facebook_btn"
+        android:text="@string/share_on_twitter"
+        app:my_style="primaryButton"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"/>
+    <app.w8r.CustomViews.BaseTextView
+        android:id="@+id/facebook_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/share_on_facebook"
+        app:my_style="primaryButton"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
