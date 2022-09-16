@@ -43,12 +43,14 @@ color white
 color white_alpha
 drawable background
 drawable custom_history_background
+drawable custom_oval_white
 drawable custom_primary_button
 drawable ic_camera
 drawable ic_close
 drawable ic_history
 drawable ic_launcher_background
 drawable ic_pin
+drawable ic_save
 drawable ic_weather_few_clouds
 drawable ic_weather_rainy
 drawable ic_weather_sunny

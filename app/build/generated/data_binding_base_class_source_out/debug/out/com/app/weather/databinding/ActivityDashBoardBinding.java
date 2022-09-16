@@ -47,7 +47,7 @@ public final class ActivityDashBoardBinding implements ViewBinding {
   public final FixRecyclerView recycler;
 
   @NonNull
-  public final BaseTextView saveTv;
+  public final ImageView saveTv;
 
   @NonNull
   public final BaseTextView tempTv;
@@ -62,7 +62,7 @@ public final class ActivityDashBoardBinding implements ViewBinding {
       @NonNull ConstraintLayout bottomData, @NonNull ImageView cameraIm,
       @NonNull BaseTextView clearTv, @NonNull BaseTextView conditionTv,
       @NonNull ImageView historyIm, @NonNull BaseEditTextView locationEt,
-      @NonNull ImageView photoIm, @NonNull FixRecyclerView recycler, @NonNull BaseTextView saveTv,
+      @NonNull ImageView photoIm, @NonNull FixRecyclerView recycler, @NonNull ImageView saveTv,
       @NonNull BaseTextView tempTv, @NonNull ConstraintLayout topData,
       @NonNull ImageView weatherIm) {
     this.rootView = rootView;
@@ -156,7 +156,7 @@ public final class ActivityDashBoardBinding implements ViewBinding {
       }
 
       id = R.id.save_tv;
-      BaseTextView saveTv = ViewBindings.findChildViewById(rootView, id);
+      ImageView saveTv = ViewBindings.findChildViewById(rootView, id);
       if (saveTv == null) {
         break missingId;
       }

@@ -2607,6 +2607,7 @@ int drawable common_google_signin_btn_text_light_focused 0x7f070071
 int drawable common_google_signin_btn_text_light_normal 0x7f070072
 int drawable common_google_signin_btn_text_light_normal_background 0x7f070073
 int drawable custom_history_background 0x7f070074
+int drawable custom_oval_white 0x7f0700c0
 int drawable custom_primary_button 0x7f070075
 int drawable design_fab_background 0x7f070076
 int drawable design_ic_visibility 0x7f070077
@@ -2629,6 +2630,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f070087
 int drawable ic_mtrl_chip_checked_circle 0x7f070088
 int drawable ic_mtrl_chip_close_circle 0x7f070089
 int drawable ic_pin 0x7f07008a
+int drawable ic_save 0x7f0700c1
 int drawable ic_weather_few_clouds 0x7f07008b
 int drawable ic_weather_rainy 0x7f07008c
 int drawable ic_weather_sunny 0x7f07008d

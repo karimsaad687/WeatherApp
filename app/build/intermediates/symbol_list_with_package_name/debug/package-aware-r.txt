@@ -2608,6 +2608,7 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable custom_history_background
+drawable custom_oval_white
 drawable custom_primary_button
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2630,6 +2631,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_pin
+drawable ic_save
 drawable ic_weather_few_clouds
 drawable ic_weather_rainy
 drawable ic_weather_sunny

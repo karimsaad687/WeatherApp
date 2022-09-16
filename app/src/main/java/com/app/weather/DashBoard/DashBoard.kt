@@ -218,7 +218,7 @@ class DashBoard : BaseActivity(), TextWatcher {
 
     fun clearUI(){
         runOnUiThread {
-            MyUtils.animateTranslateY(binding.topData,-200.0f*dp)
+            MyUtils.animateTranslateY(binding.topData,-210.0f*dp)
             binding.locationEt.setText("")
             binding.cameraIm.visibility= View.VISIBLE
             binding.photoIm.setImageResource(R.drawable.background)
