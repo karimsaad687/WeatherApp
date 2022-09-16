@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="dimension" name="layoutWidth">
+        <enum name="fill_parent" value="-1"/>
+        <enum name="match_parent" value="-1"/>
+        <enum name="wrap_content" value="-2"/>
+    </attr>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#4770AD</color>
+    <color name="history_layer">#33212121</color>
+    <color name="ic_launcher_background">#4770AD</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#EF2121</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparant_layer">#334B4B4B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_alpha">#99FFFFFF</color>
+    <string name="app_id">e8297c2191b936bd84e0cead883849d2</string>
+    <string name="app_name">Weather</string>
+    <string name="check_internet_connection">Please check INTERNET CONNECTION and try again</string>
+    <string name="check_today_weather">Check today’s weather</string>
+    <string name="clear_history">Clear History</string>
+    <string name="font_family">Poppins-</string>
+    <string name="get_started">Get Started</string>
+    <string name="location_permission_denied">Please accept LOCATION PERMISSION and try again</string>
+    <string name="location_service_is_turned_off">Please enable LOCATION SERVICE and try again</string>
+    <string name="save">Save</string>
+    <string name="welcome_to_weather">Welcome To Weather</string>
+    <string name="where_did_you_take_this_photo">"where did you take this photo?"</string>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/new_order_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/new_order_slide_down</item>
+    </style>
+    <style name="Theme.WeatherApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        
+        <attr format="color" name="civ_fill_color"/>
+        <attr format="color" name="civ_circle_background_color"/>
+    </declare-styleable>
+    <declare-styleable name="MyElement">
+        <attr format="string" name="my_font"/>
+        <attr format="string" name="my_style"/>
+        <attr format="boolean" name="remove_padding"/>
+        <attr format="color" name="circle_inner_color"/>
+        <attr format="integer" name="my_image_radius"/>
+    </declare-styleable>
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr format="dimension" name="sriv_left_top_corner_radius"/>
+        <attr format="dimension" name="sriv_right_top_corner_radius"/>
+        <attr format="dimension" name="sriv_left_bottom_corner_radius"/>
+        <attr format="dimension" name="sriv_right_bottom_corner_radius"/>
+        <attr format="dimension" name="sriv_border_width"/>
+        <attr format="color" name="sriv_border_color"/>
+        <attr format="boolean" name="sriv_oval"/>
+        <attr name="android:scaleType"/>
+    </declare-styleable>
+</resources>

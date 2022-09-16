@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="font_family">Poppins-</string>
+    <string name="app_id">e8297c2191b936bd84e0cead883849d2</string>
+    //splash
+    <string name="get_started">Get Started</string>
+    <string name="check_today_weather">Check today’s weather</string>
+    <string name="welcome_to_weather">Welcome To Weather</string>
+
+    //home
+    <string name="where_did_you_take_this_photo">"where did you take this photo?"</string>
+    <string name="save">Save</string>
+    <string name="clear_history">Clear History</string>
+
+    //errors
+    <string name="location_service_is_turned_off">Please enable LOCATION SERVICE and try again</string>
+    <string name="location_permission_denied">Please accept LOCATION PERMISSION and try again</string>
+    <string name="check_internet_connection">Please check INTERNET CONNECTION and try again</string>
+</resources>

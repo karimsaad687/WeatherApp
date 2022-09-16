@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/xml_provider_paths.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_weather_rainy.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_weather_rainy.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_new_order_slide_up.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/new_order_slide_up.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_item_slide_up.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/item_slide_up.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_pulse_anim.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/pulse_anim.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_custom_primary_button.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/custom_primary_button.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable-xhdpi_background.png.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-xhdpi/background.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_weather_sunny.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_weather_sunny.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_slide_out_left.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_pin.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_pin.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/layout_loading.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/loading.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable-xxxhdpi_background.png.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_new_order_alpha.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/new_order_alpha.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/layout_activity_dash_board.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/activity_dash_board.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_slide_in_left.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_custom_history_background.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/custom_history_background.xml"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_camera.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/layout_dialog_full_image.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/dialog_full_image.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable-hdpi_background.png.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_new_order_slide_down.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/new_order_slide_down.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_slide_out_right.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_slide_in_right.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/layout_adapter_history_item.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/adapter_history_item.xml"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_close.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_weather_few_clouds.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_weather_few_clouds.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable-mdpi_background.png.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-mdpi/background.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable_ic_history.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/anim_slide_up.xml.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-merged_res-46:/drawable-xxhdpi_background.png.flat",
+        "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/drawable-xxhdpi/background.png"
+    },
+    {
+        "merged": "com.app.weather.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.weather.app-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]
