@@ -4,12 +4,12 @@
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/dialog_full_image.xml"
     },
     {
-        "merged": "com.app.weather.app-mergeDebugResources-45:/layout/activity_dash_board.xml",
-        "source": "com.app.weather.app-main-48:/layout/activity_dash_board.xml"
-    },
-    {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-mergeDebugResources-45:/layout/adapter_history_item.xml",
         "source": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-main-48:/layout/adapter_history_item.xml"
+    },
+    {
+        "merged": "com.app.weather.app-mergeDebugResources-45:/layout/adapter_history_item.xml",
+        "source": "com.app.weather.app-main-48:/layout/adapter_history_item.xml"
     },
     {
         "merged": "/Users/macbookpro/.gradle/daemon/7.3.3/com.app.weather.app-mergeDebugResources-45:/layout/activity_dash_board.xml",

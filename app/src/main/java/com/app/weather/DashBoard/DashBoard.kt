@@ -21,8 +21,8 @@ import com.app.weather.FullImageDialog.FullImageDialog
 import com.app.weather.R
 import com.app.weather.Room.WeatherDataBase
 import com.app.weather.databinding.ActivityDashBoardBinding
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 
 
@@ -53,7 +53,7 @@ class DashBoard : BaseActivity(), TextWatcher {
         appDataBase=WeatherDataBase.getDatabase(this)
 
         //call history from cooroutine
-        GlobalScope.launch(Dispatchers.IO){
+        CoroutineScope(IO).launch{
             loadHistory(false)
         }
 
@@ -115,7 +115,7 @@ class DashBoard : BaseActivity(), TextWatcher {
                     binding.locationEt.text.toString(),
                     conditionIcon
                 )
-                GlobalScope.launch(Dispatchers.IO){
+                CoroutineScope(IO).launch{
                     appDataBase.weatherDao().addWeatherModel(weatherDatabaseModel)
 
                     loadHistory(historyModels.size>0)
@@ -129,7 +129,7 @@ class DashBoard : BaseActivity(), TextWatcher {
 
         //to remove all entries from database
         binding.clearTv.setOnClickListener({
-            GlobalScope.launch(Dispatchers.IO) {
+            CoroutineScope(IO).launch{
                 appDataBase.weatherDao().removeAllData()
                 loadHistory(false)
             }

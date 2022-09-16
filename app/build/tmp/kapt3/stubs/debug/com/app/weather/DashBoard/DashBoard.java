@@ -16,7 +16,7 @@ public final class DashBoard extends app.w8r.Common.BaseActivity implements andr
     @org.jetbrains.annotations.NotNull()
     private java.lang.String imagePath = "";
     private int conditionIcon = 0;
-    private boolean open = true;
+    private boolean open = false;
     
     public DashBoard() {
         super();
