@@ -41,7 +41,7 @@ class DashBoard : BaseActivity(), TextWatcher {
 
     var imagePath=""
     var conditionIcon=0
-    var open=true
+    var open=false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityDashBoardBinding.inflate(layoutInflater);
@@ -77,7 +77,6 @@ class DashBoard : BaseActivity(), TextWatcher {
             if(model.desc.equals("clear sky")) {
                 binding.weatherIm.setImageResource(R.drawable.ic_weather_sunny)
                 conditionIcon=R.drawable.ic_weather_sunny
-                //historyModel.icon=R.drawable.ic_weather_sunny
             }else if(model.desc.equals("few clouds")) {
                 binding.weatherIm.setImageResource(R.drawable.ic_weather_few_clouds)
                 conditionIcon=R.drawable.ic_weather_few_clouds
@@ -87,11 +86,9 @@ class DashBoard : BaseActivity(), TextWatcher {
             }
 
             binding.conditionTv.setText(model.condition)
-
-            //binding.photoIm.setImageURI(Uri.parse());
-            Log.i("datadata_image",model.icon)
+            //show history panel
             MyUtils.animateTranslateY(binding.topData,0.0f)
-            //MyUtils.animateTranslateY(binding.bottomData,0.0f)
+
         }
         weatherController!!.getLinkedList().observe(this, observer!!)
 
@@ -99,7 +96,7 @@ class DashBoard : BaseActivity(), TextWatcher {
 
         //when press on history button
         binding.historyIm.setOnClickListener({
-            if(open) {
+            if(!open) {
                 MyUtils.animateHeight(binding.bottomData,350 * dp)
             }else{
                 MyUtils.animateHeight(binding.bottomData,140 * dp)
@@ -120,7 +117,8 @@ class DashBoard : BaseActivity(), TextWatcher {
                 )
                 GlobalScope.launch(Dispatchers.IO){
                     appDataBase.weatherDao().addWeatherModel(weatherDatabaseModel)
-                    loadHistory(true)
+
+                    loadHistory(historyModels.size>0)
                     clearUI()
 
                 }
@@ -150,6 +148,8 @@ class DashBoard : BaseActivity(), TextWatcher {
         }else{
             runOnUiThread {
                 MyUtils.animateTranslateY(binding.bottomData,140.0f*dp)
+                MyUtils.animateHeight(binding.bottomData,140 * dp)
+                open=false
                 binding.clearTv.visibility=View.GONE
             }
 
